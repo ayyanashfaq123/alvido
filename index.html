@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/project.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <nav>
@@ -21,11 +21,15 @@
                 <li>docs</li>
             </ul>
         </div>
+        <button class="nav-side-bar"><i class="fa-solid fa-bars"></i></button>
         </div>
     </nav>
     <section class="side-bar">
         <div class="side-bar-top">
+            <div class="top-1">
             <div class="sidebar-1"><img src="./assets/picture/logo-white.svg" alt="logo"></div>
+            <button class="sidebar-func" onclick="showNav()"><i class="fa-solid fa-xmark"></i></button>
+            </div>
         <div class="sidebar-2">
             <ul class="sidebar-list">
                 <li>Home</li>
@@ -39,8 +43,9 @@
         </div>
         <div class="side-bar-down">
             <h2>OUR MISION IS TO CREATE A VIBRANT & INCLUSIVE</h2>
-            <button>GET IN TOUCH</button>
+            <button class="sidebar-btn">GET IN TOUCH <i class="fa-solid fa-arrow-right"></i></button>
         </div>
     </section>
+    <script src="./assets/javascript.js"></script>
 </body>
 </html>
