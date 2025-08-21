@@ -1,9 +1,10 @@
-const sidebar_func = document.querySelector('sidebar-func')
+const sidebar = document.querySelector(".sidebar")
 function showNav() {
-    if(sidebar_func.style.display === 'none'){
-        sidebar_func.style.display = 'block'
+    if(sidebar.style.display === 'none'){
+        sidebar.style.display = 'block'
+        sidebar.style.transition = "all 5s";
     }
     else{
-        sidebar_func.style.display = 'none'
+        sidebar.style.display = 'none'
     }
 }
