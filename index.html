@@ -1,91 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/project.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alvido – The Future Gaming</title>
+  <link rel="stylesheet" href="./assets/project.css">
 </head>
 <body>
+  <!-- Sidebar -->
+  <aside id="sidebar" class="sidebar">
+    <button id="closeBtn">&times;</button>
     <nav>
-        <div class="nav-main">
-        <div class="nav-left"><img src="./assets/picture/logo-white.svg" alt="logo"></div>
-        <div class="nav-right">
-            <ul class="drop-down">
-                <li>Home</li>
-                <li>Ecosystem</li>
-                <li>project</li>
-                <li>insights</li>
-                <li>investor</li>
-                <li>docs</li>
-            </ul>
-        </div>
-        <button class="nav-side-bar" onclick="showNav()"><i class="fa-solid fa-bars"></i></button>
-        </div>
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#heroes">Heroes</a>
+      <a href="#villains">Villains</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#community">Community</a>
+      <a href="#faq">FAQ</a>
+      <a href="#footer">Contact</a>
     </nav>
-    <section class="sidebar">
-        <div class="side-bar-top">
-            <div class="top-1">
-            <div class="sidebar-1"><img src="./assets/picture/logo-white.svg" alt="logo"></div>
-            <button class="sidebar-func" onclick="showNav()"><i class="fa-solid fa-xmark"></i></button>
-            </div>
-        <div class="sidebar-2">
-            <ul class="sidebar-list">
-                <li>Home</li>
-                <li>Ecosystem</li>
-                <li>project</li>
-                <li>insights</li>
-                <li>investor</li>
-                <li>docs</li>
-            </ul>
-        </div>
-        </div>
-        <div class="side-bar-down">
-            <h2>OUR MISION IS TO CREATE A VIBRANT & INCLUSIVE</h2>
-            <button class="sidebar-btn">GET IN TOUCH <i class="fa-solid fa-arrow-right"></i></button>
-        </div>
-    </section>
-    <section class="sec-1">
-        <div class="sec-1-main">
-        <h1><span>Alvido</span> Web3 Gaming</h1>
-        <div class="sec-1-display">
-        <p>* Built on blockchain, accessible worldwide</p>
-        <ul>
-            <li><i class="fa-brands fa-twitter"></i></li>
-            <li><i class="fa-brands fa-facebook-messenger"></i></li>
-            <li><i class="fa-brands fa-intercom"></i></li>
-        </ul>
-        </div>
-        </div>
-    </section>
-    <section class="sec-2">
-        <img src="./assets/picture/img-1.png" alt="">
-    </section>
-    <section class="sec-3">
-        <div class="sec-3-main">
-            <div class="sec-3-position">
-                <h1>decntralized game center</h1>
-                <h3>01</h3>
-            </div>
-            <div class="sec-3-position">
-                <h1>lock-chain game testing</h1>
-                <h3>02</h3>
-            </div>
-            <div class="sec-3-position">
-                <h1>ar/vr powered metaverse</h1>
-                <h3>03</h3>
-            </div>
-            <div class="sec-3-pos5">
-                <h1>nft based asset</h1>
-                <h3>04</h3>
-            </div>
-            <div class="sec-3-pos5">
-                <h1>web3 game services</h1>
-                <h3>05</h3>
-            </div>
-        </div>
-    </section>
-    <script src="./assets/javascript.js"></script>
+  </aside>
+
+  <!-- Header -->
+  <header class="header">
+    <button id="menuBtn">&#9776;</button>
+    <h1>Alvido</h1>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h2>The Future of Gaming</h2>
+      <p>Step into the world of Alvido — where heroes and villains clash in the metaverse.</p>
+      <button class="cta">Play Now</button>
+    </div>
+    <img src="./assets/picture/img-1.png" alt="Hero Avatar">
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Alvido</h2>
+    <p>Alvido combines futuristic battles, Web3 technology, and character ownership to create the next-gen gaming universe.</p>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="features">
+    <h2>Game Features</h2>
+    <div class="feature-grid">
+      <div class="feature">⚔️ Epic Battles</div>
+      <div class="feature">🌌 Metaverse World</div>
+      <div class="feature">🛡️ Custom Heroes</div>
+      <div class="feature">💎 Play-to-Earn</div>
+    </div>
+  </section>
+
+  <!-- Heroes Section -->
+  <section id="heroes" class="avatars">
+    <h2>Meet the Heroes</h2>
+    <div class="avatar-grid">
+      <img src="./assets/picture/img-4.png" alt="Hero 1">
+      <img src="./assets/picture/h1-img-removebg-preview.png" alt="Hero 2">
+    </div>
+  </section>
+
+  <!-- Villains Section -->
+  <section id="villains" class="avatars villains">
+    <h2>Face the Villains</h2>
+    <div class="avatar-grid">
+      <img src="./assets/picture/v-1-removebg-preview.png" alt="Villain 1">
+      <img src="./assets/picture/v-2-removebg-preview.png" alt="Villain 2">
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="gallery">
+    <h2>Game Gallery</h2>
+    <div class="gallery-grid">
+      <img src="./assets/picture/g-1 img.png" alt="Scene 1">
+      <img src="./assets/picture/g-1 img.png" alt="Scene 2">
+      <img src="./assets/picture/g-1 img.png" alt="Scene 3">
+    </div>
+  </section>
+
+  <!-- Roadmap -->
+  <section id="roadmap" class="roadmap">
+    <h2>Roadmap</h2>
+    <ul>
+      <li>2025 Q1 – Beta Launch</li>
+      <li>2025 Q2 – Multiplayer Arena</li>
+      <li>2025 Q3 – NFT Marketplace</li>
+      <li>2025 Q4 – Full Global Release</li>
+    </ul>
+  </section>
+
+  <!-- Community -->
+  <section id="community" class="community">
+    <h2>Join the Community</h2>
+    <p>Be part of our Discord and Twitter community for updates and rewards.</p>
+    <button class="cta">Join Now</button>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="faq">
+    <h2>FAQ</h2>
+    <details>
+      <summary>What is Alvido?</summary>
+      <p>A futuristic Web3 game with heroes, villains, and player-owned assets.</p>
+    </details>
+    <details>
+      <summary>How to play?</summary>
+      <p>Sign up, create your avatar, and start your adventure in the metaverse.</p>
+    </details>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer">
+    <p>© 2025 Alvido. All Rights Reserved.</p>
+  </footer>
+
+  <script src="./assets/javascript.js"></script>
 </body>
 </html>
